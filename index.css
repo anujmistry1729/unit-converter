@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    background-color: #1C1C1C;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+.main{
+    margin: 10px auto;
+    padding: 25px;
+    max-width: 550px;
+}
+
+.conversion-input{
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#input-units{
+    text-align: center;
+    margin: 30px auto 25px auto;
+    padding: 20px;
+    width: 115px;
+    color: white;
+    font-size: 58px;
+    font-weight: bolder;
+    background-color: #6943FF;
+    border: 1px solid #B295FF;
+}
+
+
+#converter:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 1px;
+}
+
+#converter:active{
+    box-shadow: 3px 3px 10px;
+}
+#converter{
+    padding: 9px 27.5px;
+    border: none;
+    border-radius: 5px;
+    max-width: fit-content;
+    font-weight: 500;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.converted-units{
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+}
+
+.unit-cards{
+    background-color: white;
+    color: #5A537B;
+    margin: 14px 25px;
+}
+
+.card-title{
+    margin-bottom: 9px;
+    margin-top: 31px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-info{
+    margin-bottom: 19px;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #353535;
+}
